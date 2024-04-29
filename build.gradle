@@ -1,41 +1,52 @@
 plugins {
-	id 'java'
-	id 'io.spring.dependency-management' version '1.1.4'
+    id 'java'
+    id 'io.spring.dependency-management'
 }
 
 group = 'com.clear_solution.test.task'
 version = '0.0.1'
 
 java {
-	sourceCompatibility = '17'
+    sourceCompatibility = '17'
 }
 
-ext{
-	versions = [:]
+ext {
+    versions = [:]
 }
 
 versions += [
-        springBoot : '3.2.5'
-
+        springBoot  : '3.2.5',
+        jackson     : '2.17.0',
+        lombok      : '1.18.30',
+        junit       : '5.11.0-M1',
+        mockito     : '5.11.0'
 ]
 
 configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	implementation "org.springframework.boot:spring-boot-starter-web:$versions.springBoot"
-	compileOnly "org.projectlombok:lombok"
-	annotationProcessor "org.projectlombok:lombok"
-	testImplementation "org.springframework.boot:spring-boot-starter-test:$versions.springBoot"
+    implementation "org.springframework.boot:spring-boot-starter-web:$versions.springBoot"
+    implementation "org.springframework.boot:spring-boot-starter-validation:$versions.springBoot"
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$versions.jackson"
+
+    compileOnly "org.projectlombok:lombok:$versions.lombok"
+    annotationProcessor "org.projectlombok:lombok:$versions.lombok"
+
+    testImplementation "org.springframework.boot:spring-boot-starter-test:$versions.springBoot"
+}
+
+compileJava {
+    options.compilerArgs << '-parameters'
 }
 
 tasks.named('test') {
-	useJUnitPlatform()
+    useJUnitPlatform()
 }
