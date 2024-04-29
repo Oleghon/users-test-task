@@ -1,4 +1,4 @@
-package com.clear_solution.test.task.users.exception;
+package com.clearsolutions.practicalassignment.users.exception;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {

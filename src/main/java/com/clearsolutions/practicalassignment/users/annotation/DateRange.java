@@ -1,4 +1,4 @@
-package com.clear_solution.test.task.users.annotation;
+package com.clearsolutions.practicalassignment.users.annotation;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

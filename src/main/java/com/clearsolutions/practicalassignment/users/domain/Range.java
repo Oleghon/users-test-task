@@ -1,6 +1,6 @@
-package com.clear_solution.test.task.users.domain;
+package com.clearsolutions.practicalassignment.users.domain;
 
-import com.clear_solution.test.task.users.annotation.DateRange;
+import com.clearsolutions.practicalassignment.users.annotation.DateRange;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;

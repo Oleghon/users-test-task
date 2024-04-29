@@ -1,4 +1,4 @@
-package com.clear_solution.test.task.users.handler;
+package com.clearsolutions.practicalassignment.users.handler;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

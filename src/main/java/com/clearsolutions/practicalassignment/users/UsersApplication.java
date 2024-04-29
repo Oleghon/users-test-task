@@ -1,4 +1,4 @@
-package com.clear_solution.test.task.users;
+package com.clearsolutions.practicalassignment.users;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

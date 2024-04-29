@@ -1,6 +1,6 @@
-package com.clear_solution.test.task.users.annotation;
+package com.clearsolutions.practicalassignment.users.annotation;
 
-import com.clear_solution.test.task.users.domain.Range;
+import com.clearsolutions.practicalassignment.users.domain.Range;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

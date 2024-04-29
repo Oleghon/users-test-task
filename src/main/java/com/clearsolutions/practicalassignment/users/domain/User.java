@@ -1,4 +1,4 @@
-package com.clear_solution.test.task.users.domain;
+package com.clearsolutions.practicalassignment.users.domain;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

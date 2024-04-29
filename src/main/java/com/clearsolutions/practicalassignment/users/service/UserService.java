@@ -1,10 +1,10 @@
-package com.clear_solution.test.task.users.service;
+package com.clearsolutions.practicalassignment.users.service;
 
-import com.clear_solution.test.task.users.domain.Range;
-import com.clear_solution.test.task.users.domain.User;
-import com.clear_solution.test.task.users.exception.UserNotEnoughAdultException;
-import com.clear_solution.test.task.users.exception.UserNotFoundException;
-import com.clear_solution.test.task.users.util.Patcher;
+import com.clearsolutions.practicalassignment.users.domain.Range;
+import com.clearsolutions.practicalassignment.users.domain.User;
+import com.clearsolutions.practicalassignment.users.exception.UserNotEnoughAdultException;
+import com.clearsolutions.practicalassignment.users.exception.UserNotFoundException;
+import com.clearsolutions.practicalassignment.users.util.Patcher;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;

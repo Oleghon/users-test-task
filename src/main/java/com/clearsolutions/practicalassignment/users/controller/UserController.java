@@ -1,8 +1,8 @@
-package com.clear_solution.test.task.users.controller;
+package com.clearsolutions.practicalassignment.users.controller;
 
-import com.clear_solution.test.task.users.domain.Range;
-import com.clear_solution.test.task.users.domain.User;
-import com.clear_solution.test.task.users.service.UserService;
+import com.clearsolutions.practicalassignment.users.domain.Range;
+import com.clearsolutions.practicalassignment.users.domain.User;
+import com.clearsolutions.practicalassignment.users.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

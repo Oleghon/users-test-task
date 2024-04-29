@@ -1,7 +1,7 @@
-package com.clear_solution.test.task.users.handler;
+package com.clearsolutions.practicalassignment.users.handler;
 
-import com.clear_solution.test.task.users.exception.UserNotEnoughAdultException;
-import com.clear_solution.test.task.users.exception.UserNotFoundException;
+import com.clearsolutions.practicalassignment.users.exception.UserNotEnoughAdultException;
+import com.clearsolutions.practicalassignment.users.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
